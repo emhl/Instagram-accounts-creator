@@ -188,7 +188,8 @@ while True:
                         confInput.send_keys(Keys.CONTROL + "a")
                         confInput.send_keys(Keys.DELETE)
                         confInput.send_keys(code, Keys.ENTER)
-        except:         sleep(3)
+        except:         
+                sleep(3)
                 pass
 
         driver.close()
